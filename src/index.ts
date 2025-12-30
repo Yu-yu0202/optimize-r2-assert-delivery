@@ -38,7 +38,7 @@ export default {
                 headers: {
                     "ETag": etag,
                     "Cache-Control": "public, max-age=31536000, immutable",
-                    "Access-Control-Allow-Origin": "*",
+                    "Access-Control-Allow-Origin": "https://ysamama.com",
                 },
             });
         }
